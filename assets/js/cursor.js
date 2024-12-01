@@ -18,6 +18,9 @@ var cursor = {
 
     this.setupEventListeners();
     this.animateDotOutline();
+    this.$dot.style.transition = "transform 0.15s ease-out, opacity 0.15s ease-out";
+    this.$outline.style.transition = "transform 0.15s ease-out, opacity 0.15s ease-out";
+    this.$dot.style.animation = "pulse 1s infinite";
   },
 
   setupEventListeners: function () {
@@ -106,8 +109,8 @@ var cursor = {
     var self = this;
 
     if (self.cursorEnlarged) {
-      self.$dot.style.transform = "translate(-50%, -50%) scale(0.75)";
-      self.$outline.style.transform = "translate(-50%, -50%) scale(1.5)";
+      self.$dot.style.transform = "translate(-50%, -50%) scale(1.5)";
+      self.$outline.style.transform = "translate(-50%, -50%) scale(2)";
     } else {
       self.$dot.style.transform = "translate(-50%, -50%) scale(1)";
       self.$outline.style.transform = "translate(-50%, -50%) scale(1)";
@@ -126,5 +129,16 @@ var cursor = {
     }
   },
 };
+
+// Add CSS for pulsing animation
+var style = document.createElement('style');
+style.innerHTML = `
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+`;
+document.head.appendChild(style);
 
 cursor.init();

@@ -191,7 +191,7 @@ figure .image-2:nth-child(9) {
 .header {
   font-weight: bold;
   font-family: cursive;
-  font-size: 2.3cm;
+  font-size: 1.3cm;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(rgb(0, 161, 153), rgb(61, 0, 152));
   background-size: 65px 60%;

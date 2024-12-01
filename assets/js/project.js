@@ -6,38 +6,38 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Personal Portfolio Website",
-    cardImage: "./assets/images/project-page/Portfolio.jpg",
+    title: "Hindu God Statue Recognition",
+    cardImage: "./assets/images/project-page/statueist.jpg",
     description: "",
     tagimg: "",
-    Previewlink: "https://hi-aman-jain.github.io/personal-portfolio-website/",
-    Githublink: "https://github.com/Hi-Aman-Jain/portfolio-website",
+    Previewlink: "https://nareshlab.github.io/statueist/",
+    Githublink: "https://github.com/nareshlab/statueist-api",
   },
   {
-    title: "LEARNIVERSE",
-    cardImage: "assets/images/project-page/Learniverse.jpg",
+    title: "Gesture-Based Coffee Ordering",
+    cardImage: "assets/images/project-page/coffee.jpg",
     description: ".",
     tagimg: "",
-    Previewlink: "https://hi-aman-jain.github.io/LEARNIVERSE-E-Learning-Website/",
-    Githublink: "https://github.com/Hi-Aman-Jain/LEARNIVERSE-E-Learning-Website",
+    Previewlink: "https://github.com/nareshlab/CoffeeOrdering",
+    Githublink: "https://github.com/nareshlab/CoffeeOrdering",
   },
   {
-    title: "SOUL: A 3-D Scrolling Site",
-    cardImage: "assets/images/project-page/Soul.jpg",
+    title: "Sales Report Analysis Dashboard",
+    cardImage: "assets/images/project-page/Sales.png",
     description: "",
     tagimg: "",
-    Previewlink: "https://github.com/Hi-Aman-Jain/Soul-Scrolling-Site",
-    Githublink: "https://github.com/Hi-Aman-Jain/Soul-Scrolling-Site",
+    Previewlink: "https://github.com/nareshlab/Sales-Report-Analysis",
+    Githublink: "https://github.com/nareshlab/Sales-Report-Analysis",
   },
   {
-    title: "3D Sphere Ball",
-    cardImage: "assets/images/project-page/3D-Ball.png",
+    title: "Plant Disease Detection",
+    cardImage: "assets/images/project-page/damaged_leaves_1920x870.jpg",
     description: "",
     tagimg: "",
     Previewlink: "https://github.com/Hi-Aman-Jain/3D-Sphere-ball/",
     Githublink: "https://github.com/Hi-Aman-Jain/3D-Sphere-ball",
   },
-  {
+ /*{
     title: "My Picture Showcase",
     cardImage: "assets/images/project-page/Picture.jpg",
     description: "",
@@ -100,7 +100,7 @@ const projects = [
     tagimg: "",
     Previewlink: "https://hi-aman-jain.github.io/Bird_Game/",
     Githublink: "https://github.com/Hi-Aman-Jain/Bird_Game",
-  },
+  },*/
 ];
 
 // function for rendering project cards data

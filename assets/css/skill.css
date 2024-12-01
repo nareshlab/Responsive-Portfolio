@@ -580,13 +580,13 @@ ul.skills li::after {
 
       /* Technical skill values */
 
-ul.skills li.sk-web { --per: 75; }
-ul.skills li.sk-cod { --per: 60; }
+ul.skills li.sk-full { --per: 75; }
+ul.skills li.sk-wp { --per: 90; }
 ul.skills li.sk-dsa { --per: 75; }
 ul.skills li.sk-dbm { --per: 65; }
-ul.skills li.sk-gra { --per: 80; }
+ul.skills li.sk-ml { --per: 80; }
 ul.skills li.sk-con { --per: 74; }
-ul.skills li.sk-vid { --per: 78; }
+ul.skills li.sk-seo { --per: 88; }
 
         /* Soft skill values */
 
@@ -600,10 +600,10 @@ ul.skills li.sk-sin { --per: 80; }
 
        /* Language skill values */
  
-ul.skills li.sk-ccc { --per: 75; }
-ul.skills li.sk-cpl { --per: 70; }
-ul.skills li.sk-jav { --per: 77; }
+ul.skills li.sk-mdb { --per: 75; }
 ul.skills li.sk-sql { --per: 70; }
+ul.skills li.sk-jav { --per: 90; }
+ul.skills li.sk-py { --per:  80; }
 ul.skills li.sk-htm { --per: 95; }
 ul.skills li.sk-css { --per: 95; }
 ul.skills li.sk-jss { --per: 65; }
@@ -611,12 +611,12 @@ ul.skills li.sk-jss { --per: 65; }
         /* Tool skill values */
 
 ul.skills li.sk-vsc { --per: 90; }
-ul.skills li.sk-dev { --per: 70; }
+ul.skills li.sk-colab { --per: 90; }
 ul.skills li.sk-git { --per: 80; }
-ul.skills li.sk-aps { --per: 82; }
-ul.skills li.sk-cop { --per: 66; }
-ul.skills li.sk-mpp { --per: 60; }
-ul.skills li.sk-mse { --per: 70; }
+ul.skills li.sk-aps { --per: 87; }
+ul.skills li.sk-pbi { --per: 76; }
+ul.skills li.sk-fig { --per: 95; }
+ul.skills li.sk-cloud { --per: 70; }
 
 /*********************/
 /***** TOP LABELS ****/
